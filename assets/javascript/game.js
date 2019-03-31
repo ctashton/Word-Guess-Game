@@ -48,7 +48,7 @@ function gameReset() {
 // This function controls the display
 function gameDisplay(){
 
-    document.getElementById("winstext").innerHtml = "Wins:<br>" + wins;
+    document.getElementById("winstext").innerHTML = "Wins:<br>" + wins;
     document.getElementById("current-word-text").innerHTML = "CurrentWord:<br>" + currentWord;
     document.getElementById("remaining-guesses-text").innerHTML = "Remaining Guesses:<br>" + guessesLeft;
     document.getElementById("letters-guessed").innerHTML = "Letters Guessed:<br>" + guessedLetters;
